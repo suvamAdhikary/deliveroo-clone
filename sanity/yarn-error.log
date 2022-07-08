@@ -1,0 +1,66 @@
+Arguments: 
+  /Users/suvamadhikary/.nvm/versions/node/v14.19.0/bin/node /Users/suvamadhikary/.nvm/versions/node/v14.19.0/lib/node_modules/@sanity/cli/vendor/yarn install --json --non-interactive --ignore-engines --network-timeout 60000 --registry https://registry.npmjs.org
+
+PATH: 
+  /Users/suvamadhikary/.nvm/versions/node/v14.19.0/lib/node_modules/vendor:/Users/suvamadhikary/.yarn/bin:/Users/suvamadhikary/.config/yarn/global/node_modules/.bin:/Users/suvamadhikary/.nvm/versions/node/v14.19.0/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@sanity/client/-/client-3.3.2.tgz: Request failed "500 Internal Server Error"
+      at Request.<anonymous> (/Users/suvamadhikary/.nvm/versions/node/v14.19.0/lib/node_modules/@sanity/cli/vendor/yarn:78657:16)
+      at Request.emit (events.js:400:28)
+      at Request.module.exports.Request.onRequestResponse (/Users/suvamadhikary/.nvm/versions/node/v14.19.0/lib/node_modules/@sanity/cli/vendor/yarn:136195:10)
+      at ClientRequest.emit (events.js:400:28)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:647:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:127:17)
+      at HTTPParser.execute (<anonymous>)
+      at TLSSocket.socketOnData (_http_client.js:515:22)
+      at TLSSocket.emit (events.js:400:28)
+      at addChunk (internal/streams/readable.js:293:12)
+
+npm manifest: 
+  {
+    "name": "delivero-clone-yt",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "Suvam Adhikary <adhikary.saheb408@gmail.com>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "build": "sanity build"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^2.30.1",
+      "@sanity/core": "^2.30.2",
+      "@sanity/default-layout": "^2.30.1",
+      "@sanity/default-login": "^2.30.1",
+      "@sanity/desk-tool": "^2.30.1",
+      "@sanity/eslint-config-studio": "^2.0.0",
+      "@sanity/vision": "^2.30.1",
+      "eslint": "^8.6.0",
+      "prop-types": "^15.7",
+      "react": "^17.0",
+      "react-dom": "^17.0",
+      "styled-components": "^5.2.0"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
